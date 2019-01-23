@@ -1,17 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
-
 body{
 	padding: 0;
 	margin: 0;
 	background:#f4f4f4;
 }
 
-html,h1,h2,h3,h4,h5,h6,a{
-	font-family: "Raleway";
-}
 
-.navbar{ background: lightblue;}
-.nav-link , .navbar-brand{ color: white; cursor: pointer;}
+.navbar{ background: lightpurple;}
+.nav-link , .navbar-brand{ color: black; cursor: pointer;}
 .nav-link{ margin-right: 1em !important;}
 .nav-link:hover{ background: white; color: black; }
 .navbar-collapse{ justify-content: flex-end;}
@@ -159,7 +154,6 @@ html,h1,h2,h3,h4,h5,h6,a{
   font-weight: 500;
   letter-spacing: 0.15em;
   margin-bottom: 0.5em;
-  text-transform: uppercase;
 }
 
 .content-details p{
