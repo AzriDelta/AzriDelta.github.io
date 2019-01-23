@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body{
+	padding: 0;
+	margin: 0;
+	background:#f4f4f4;
+}
+
+html,h1,h2,h3,h4,h5,h6,a{
+	font-family: "Raleway";
+}
+
+.navbar{ background: lightblue;}
+.nav-link , .navbar-brand{ color: white; cursor: pointer;}
+.nav-link{ margin-right: 1em !important;}
+.nav-link:hover{ background: white; color: black; }
+.navbar-collapse{ justify-content: flex-end;}
+.navbar-toggler{  background:#fff !important;}
+
+
+/*Header style*/
+.header{
+	background-image: url('../images/headerback.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	background-color: lightblue;
+}
+
+.overlay{
+ position: absolute;
+ min-height: 100%;
+ min-width: 100%;
+ left: 0;
+ top: 0;
+ background: rgba(244, 244, 244, 0.79);
+}
+
+.description{
+    position: absolute;
+    top: 30%;
+    padding: 2em;
+}
+.description h1{
+ color: black ;
+}
+.description p{
+ color:#black;
+ font-size: 20px;
+ line-height: 1.5;
+}
+
+/*Background*/
+.background {
+ margin: 4em 0;
+ padding: 1em;
+ position: relative;
+}
+.background h1{
+ color:#black;
+ margin: 2em;
+}
+.background img{
+ height: 100%;
+    width: 100%;
+    border-radius: 30%
+}
+.background span{
+ display: block;
+ color: black;
+ position: absolute;
+ left: 115px;
+}
+.background .desc{
+ padding: 2em;
+ border-left:4px solid #10828C;
+}
+.background .desc h3{
+ color: #10828C;
+}
+.background .desc p{
+ line-height:2;
+ color:#888;
+}
+
+/*Education*/
+.education{
+ margin: 4em 0;
+ padding: 1em;
+ position: relative;
+}
+.education h1{
+ color:#black;
+ margin: 2em;
+}
+.education img{
+	height: 15rem;
+	width: 100%;
+}
+
+.content {
+  position: relative;
+  width: 90%;
+  max-width: 400px;
+  margin: auto;
+  overflow: hidden;
+}
+
+/*Education - logo*/
+.content .content-overlay {
+  background: rgba(0,0,0,0.7);
+  position: absolute;
+  height: 99%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .content-overlay{
+  opacity: 1;
+}
+
+.content-image{
+  width: 100%;
+  object-fit: contain;
+}
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.content:hover .content-details{
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.content-details h3{
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+.content-details p{
+  color: #fff;
+  font-size: 1.5em;
+}
+
+.fadeIn-bottom{
+  top: 80%;
+}
+
+.fadeIn-top{
+  top: 20%;
+}
+
+.fadeIn-left{
+  left: 20%;
+}
+
+.fadeIn-right{
+  left: 80%;
+}
+
+
