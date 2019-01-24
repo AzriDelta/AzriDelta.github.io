@@ -17,6 +17,7 @@ html, body {
 .nav-link , .navbar-brand{ color: black; cursor: pointer;}
 .nav-link{ margin-right: 1em !important;}
 .nav-link:hover{ background: white; color: black; }
+.navbar-brand:hover{ color: white; }
 .navbar-collapse{ justify-content: flex-end;}
 .navbar-toggler{  background:#fff !important;}
 
