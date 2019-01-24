@@ -6,14 +6,7 @@ html, body {
 	background:#f4f4f4;
 }
 
-
-
-.full-height {
-	height: 100%;
-}
-
-
-.navbar{ background: lightpurple;}
+.navbar{ background: lightblue;}
 .nav-link , .navbar-brand{ color: black; cursor: pointer;}
 .nav-link{ margin-right: 1em !important;}
 .nav-link:hover{ background: white; color: black; }
@@ -61,7 +54,7 @@ html, body {
  position: relative;
 }
 .background h1{
- color:#black;
+ color:black;
  margin: 2em;
 }
 .background img{
@@ -84,7 +77,7 @@ html, body {
 }
 .background .desc p{
  line-height:2;
- color:#888;
+ color: black;
 }
 
 /*Education*/
@@ -92,6 +85,7 @@ html, body {
  margin: 4em 0;
  padding: 1em;
  position: relative;
+ height: 100%;
 }
 .education h1{
  color:#black;
@@ -184,4 +178,17 @@ html, body {
 
 .fadeIn-right{
   left: 80%;
+}
+
+/*Participation*/
+.participation {
+ margin: 4em 0;
+ padding: 1em;
+ position: relative;
+ height: 100%;
+}
+
+.participation h1{
+ color: black;
+ margin: 2em;
 }
